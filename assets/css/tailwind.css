@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design tokens */
+:root {
+  --brand-primary: #0f1724;
+  --brand-accent: #d69e2e;
+}
+.text-accent { color: var(--brand-accent); }
+.bg-accent { background-color: var(--brand-accent); }
